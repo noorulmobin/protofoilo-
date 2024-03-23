@@ -1,0 +1,45 @@
+.design-img{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 60vh;
+    position: relative;
+}
+.design-img::before{
+    content: "";
+    background :url(https://media.istockphoto.com/id/1432727112/photo/woman-programming-software-codes-overnight.jpg?s=2048x2048&w=is&k=20&c=PMm9Nck9cmLDhgZ1k125XIDhTpW3gvOFpKa5s1_mU78=) ;
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+
+}
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.design-img h1{
+    font-size: 2.4rem;
+}
+.design-img p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and(max-width:640px) {
+    .design-img h1{
+        font-size: 2rem;
+    }
+    .design-img p{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}

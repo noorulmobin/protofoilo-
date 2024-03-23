@@ -1,0 +1,54 @@
+/* skillsdesign.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+  } */
+  
+  .skills {
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills h1 {
+    font-size: 28px;
+    color: #372ca9;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list p {
+    font-size: 18px;
+    color: #e31919;
+    margin: 8px 0;
+  }
+  
+  .education, .experience {
+    margin-top: 30px;
+  }
+  
+  .education h2, .experience h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .education p, .experience p {
+    font-size: 16px;
+    color: #555;
+    margin: 6px 0;
+  }
+  
