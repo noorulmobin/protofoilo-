@@ -4,10 +4,7 @@ import './skillsdesign.css';
 export const Skillsdesign = () => {
   return (
     <div className="container">
-      <div className="navbar">
-        {/* Navbar content goes here */}
-        Navbar
-      </div>
+   
       <div className="skills">
         <h1>Programming skills</h1>
         <div className='skills-list'>

@@ -12,8 +12,8 @@ export const Design = () => {
         <img className="intro-img" src={IntroImg} alt="IntroImg"/>
         </div>
         <div className="content">
-            <p>HI,Iam a Freelancer</p>
-            <h1>React Developer.</h1>
+            <p>NOOR UL MOBIN</p>
+            <h1>React Developer</h1>
             <div>
                 <Link to="/Project" className="btn">Projects</Link>
                 <Link to="/Contact" className="btn btn-light">Contact</Link>

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 
 export const Navbar = () => {
   const [click] = useState(false);
-  const hanleClick = () => !click;
+  const handleClick = () => !click;
 
   const [color, Setcolor] = useState(false);
   const changecolor = () => {
@@ -75,7 +75,7 @@ export const Navbar = () => {
         
         
       </ul>
-      <div className="hamburger" onClick={hanleClick}>
+      <div className="hamburger" onClick={handleClick}>
         {click ? (
           <FaTimes size={20} style={{ color: "#fff" }} />
         ) : (
