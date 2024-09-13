@@ -6,8 +6,9 @@ export const Skillsdesign = () => {
     <div className="container">
    
       <div className="skills">
-        <h1>Programming skills</h1>
+       
         <div className='skills-list'>
+        <h2>Programming skills</h2>
           <p>HTML</p>
           <p>CSS</p>
           <p>Bootstrap</p>
@@ -16,7 +17,8 @@ export const Skillsdesign = () => {
         <div className='education'>
           <h2>Education</h2>
           <p>Bachelor in Computer Systems Engineering</p>
-          <p>2023</p>
+          <p>Fsc pre Engineering</p>
+          <p></p>
         </div>
         <div className='experience'>
           <h2>Experience</h2>
