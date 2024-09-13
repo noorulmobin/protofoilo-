@@ -20,7 +20,7 @@ function App() {
         <Route path="/Skills" element={<Skills />} />
        
         
-        {/* This should be the last route */}
+        {/*  */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
